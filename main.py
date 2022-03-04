@@ -18,8 +18,8 @@ def the_winner(bidder_record):
 while is_enough:
 
 
-  name_user= input("What is your name? ")
-  bid_price = int(input("How much will you invite? $"))
+  name_user= input("What is your name?: ")
+  bid_price = int(input("How much will you invite?:  $"))
   add_name_price[name_user] = bid_price
 
 
